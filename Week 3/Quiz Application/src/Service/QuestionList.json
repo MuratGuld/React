@@ -1,0 +1,317 @@
+[
+  {
+    "question": "erforderlich",
+    "answerList": [
+      {
+        "answer": "basarili",
+        "isCorrect": false
+      },
+      {
+        "answer": "etkili",
+        "isCorrect": false
+      },
+      {
+        "answer": "gerekli",
+        "isCorrect": true
+      },
+      {
+        "answer": "onemsiz",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "teilweise",
+    "answerList": [
+      {
+        "answer": "kismen",
+        "isCorrect": true
+      },
+      {
+        "answer": "tamamen",
+        "isCorrect": false
+      },
+      {
+        "answer": "kesinlikle",
+        "isCorrect": false
+      },
+      {
+        "answer": "ictenlikle",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "verbreiten",
+    "answerList": [
+      {
+        "answer": "yanmak, yakmak",
+        "isCorrect": false
+      },
+      {
+        "answer": "kirmak, parcalamak",
+        "isCorrect": false
+      },
+      {
+        "answer": "yok olmak",
+        "isCorrect": false
+      },
+      {
+        "answer": "yaymak, genisletmek",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Auskunft",
+    "answerList": [
+      {
+        "answer": "bilgi",
+        "isCorrect": true
+      },
+      {
+        "answer": "Varis noktasi",
+        "isCorrect": false
+      },
+      {
+        "answer": "Sanatsal",
+        "isCorrect": false
+      },
+      {
+        "answer": "Külturel",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "erstaunlich",
+    "answerList": [
+      {
+        "answer": "yorucu",
+        "isCorrect": false
+      },
+      {
+        "answer": "sasirtici",
+        "isCorrect": true
+      },
+      {
+        "answer": "yorucu",
+        "isCorrect": false
+      },
+      {
+        "answer": "onemli",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "machen",
+    "answerList": [
+      {
+        "answer": "gitmek",
+        "isCorrect": false
+      },
+      {
+        "answer": "yemek",
+        "isCorrect": false
+      },
+      {
+        "answer": "yapmak",
+        "isCorrect": true
+      },
+      {
+        "answer": "yürümek",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "lesen",
+    "answerList": [
+      {
+        "answer": "dinlemek",
+        "isCorrect": false
+      },
+      {
+        "answer": "okumak",
+        "isCorrect": true
+      },
+      {
+        "answer": "anlamak",
+        "isCorrect": false
+      },
+      {
+        "answer": "konusmak",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "verstehen",
+    "answerList": [
+      {
+        "answer": "anlamak",
+        "isCorrect": true
+      },
+      {
+        "answer": "dinlemek",
+        "isCorrect": true
+      },
+      {
+        "answer": "anlatmak",
+        "isCorrect": false
+      },
+      {
+        "answer": "aktarmak",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "hören",
+    "answerList": [
+      {
+        "answer": "aciklamak",
+        "isCorrect": false
+      },
+      {
+        "answer": "susmak",
+        "isCorrect": false
+      },
+      {
+        "answer": "konusmak",
+        "isCorrect": false
+      },
+      {
+        "answer": "dinlemek",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "eifersüchtig",
+    "answerList": [
+      {
+        "answer": "dikkatli",
+        "isCorrect": false
+      },
+      {
+        "answer": "kiskanc",
+        "isCorrect": true
+      },
+      {
+        "answer": "yorgun",
+        "isCorrect": false
+      },
+      {
+        "answer": "karamsar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "bekommen",
+    "answerList": [
+      {
+        "answer": "vermek",
+        "isCorrect": false
+      },
+      {
+        "answer": "getirmek",
+        "isCorrect": false
+      },
+      {
+        "answer": "almak",
+        "isCorrect": true
+      },
+      {
+        "answer": "tasimak",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Herkunft",
+    "answerList": [
+      {
+        "answer": "bilgi",
+        "isCorrect": false
+      },
+      {
+        "answer": "köken",
+        "isCorrect": true
+      },
+      {
+        "answer": "konaklama",
+        "isCorrect": false
+      },
+      {
+        "answer": "sanatsal",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "abhängig",
+    "answerList": [
+      {
+        "answer": "devamli",
+        "isCorrect": false
+      },
+      {
+        "answer": "onemli",
+        "isCorrect": false
+      },
+      {
+        "answer": "yetersiz",
+        "isCorrect": false
+      },
+      {
+        "answer": "bagimli",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "unterrichten",
+    "answerList": [
+      {
+        "answer": "ögrenmek",
+        "isCorrect": false
+      },
+      {
+        "answer": "ögretmek",
+        "isCorrect": true
+      },
+      {
+        "answer": "anlamak",
+        "isCorrect": false
+      },
+      {
+        "answer": "aktarmak",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "traurig",
+    "answerList": [
+      {
+        "answer": "üzgün",
+        "isCorrect": true
+      },
+      {
+        "answer": "saskin",
+        "isCorrect": false
+      },
+      {
+        "answer": "yorgun",
+        "isCorrect": false
+      },
+      {
+        "answer": "mutlu",
+        "isCorrect": false
+      }
+    ]
+  }
+]
