@@ -1,0 +1,11 @@
+.board {
+  background-color: aquamarine;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 20px 35%;
+  margin-top: 20px;
+}
+
+.board ul {
+  list-style-type: none;
+}
