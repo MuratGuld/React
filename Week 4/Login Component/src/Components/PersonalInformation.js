@@ -3,6 +3,7 @@ import "./PersonalInformation.css"
 const PersonalInformation = ({ data }) => {
   return (
     <div>
+      {/* When data is submitted, we display our information on the screen. */}
       {data.isFormSubmitted && (
         <div className="board">
           <h2>Your Information</h2>
