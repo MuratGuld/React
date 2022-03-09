@@ -1,0 +1,27 @@
+body {
+  margin: 50px 100px 0px 500px;
+  font-size: 30px;
+}
+
+button {
+    padding: 5px 30px;
+    margin-bottom: 40px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: -40px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
