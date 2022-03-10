@@ -10,7 +10,7 @@ const PersonalInformation = ({ data }) => {
           <ul>
             <li>Username : {data.username}</li>
             <li>Email : {data.email}</li>
-            <li>Password : {data.password}</li>
+            <li>Password : {data.passw___ord}</li>
           </ul>
         </div>
       )}

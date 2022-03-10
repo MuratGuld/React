@@ -1,0 +1,8 @@
+body {
+    margin: 50px 200px;
+}
+
+input, select {
+    margin: 5px;
+    font-size: 30px;
+}
