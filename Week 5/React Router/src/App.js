@@ -46,9 +46,7 @@ function App() {
       </nav>
       {/* We specify the components that links point to in the Route tags. */}
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<App />} />
       </Routes>
     </Router>
   );
