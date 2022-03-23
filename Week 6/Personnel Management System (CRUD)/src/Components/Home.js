@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import AddPerson from "./AddPerson";
 import PersonList from "./PersonList";
 import { Container, Row, Col } from "react-bootstrap";
+// We import our service fetch api data here
 import * as personListData from "../service/person.service";
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
   }, [personList]);
 
   const getPersonList = async () => {
+    // We get the personel list from service folder (with fetch api in servise)
     const personData = await personListData.getPersonService();
     setPersonList(personData);
   };

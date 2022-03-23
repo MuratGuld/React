@@ -3,8 +3,6 @@ import { Link, useParams } from "react-router-dom";
 import * as personListData from "../service/person.service";
 
 const UpdatePerson = () => {
-  // const myData = { ...person, firstName: "MARTIX" };
-  // return <BsPencilSquare onClick={() => updatePerson(personID, myData)} />;
   const { personID } = useParams();
   const [person, setPerson] = useState([]);
 
@@ -13,11 +11,13 @@ const UpdatePerson = () => {
   }, []);
 
   const getPerson = async () => {
+    // We reach (via fetch api) personnel list and find the relevant person from id (param). Then we set this person to person (useState)
     const personData = await personListData.getPersonService();
     const filteredPerson = personData.find((person) => person.id == personID);
     setPerson(filteredPerson);
   };
 
+  // We update person
   const updatePerson = async (person) => {
     const result = await fetch(`http://localhost:3000/employee/${person.id}`, {
       method: "PUT",
@@ -28,7 +28,6 @@ const UpdatePerson = () => {
     });
   };
 
-  console.log(person);
   return (
     <div>
       <h1>UPDATE PERSON</h1>
@@ -38,6 +37,7 @@ const UpdatePerson = () => {
           type="text"
           placeholder="First Name"
           value={person.firstName}
+          // On evry change we update our relevant data
           onChange={(e) => setPerson({ ...person, firstName: e.target.value })}
         />
         <br />
@@ -74,9 +74,11 @@ const UpdatePerson = () => {
         ></textarea>
         <br />
         <button type="submit" onClick={() => updatePerson(person)}>
+          {/* Return to home page */}
           <Link to="/">Update</Link>
         </button>
         <button>
+          {/* Return to home page */}
           <Link to="/">Return</Link>
         </button>
       </form>

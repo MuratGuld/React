@@ -3,8 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import * as personListData from "../service/person.service";
 
 const ShowPerson = () => {
-  // const myData = { ...person, firstName: "MARTIX" };
-  // return <BsPencilSquare onClick={() => updatePerson(personID, myData)} />;
+  // We use param to reach the selected person id
   const { personID } = useParams();
   const [person, setPerson] = useState([]);
 
@@ -13,6 +12,7 @@ const ShowPerson = () => {
   }, []);
 
   const getPerson = async () => {
+    // We reach (via fetch api) personnel list and find the relevant person from id (param). Then we set this person to person (useState)
     const personData = await personListData.getPersonService();
     const filteredPerson = personData.find((person) => person.id == personID);
     setPerson(filteredPerson);

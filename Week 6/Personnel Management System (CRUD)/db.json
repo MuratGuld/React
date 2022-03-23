@@ -11,9 +11,9 @@
     {
       "firstName": "George",
       "lastName": "Cooper",
-      "email": "george@gmail.com",
+      "email": "geroge@gmail.com",
       "password": "123",
-      "about": "about me",
+      "about": "hi coders",
       "id": 8
     }
   ]

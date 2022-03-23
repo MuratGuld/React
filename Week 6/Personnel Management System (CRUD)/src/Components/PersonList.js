@@ -21,11 +21,13 @@ const PersonList = ({ personList, deletePerson, updatePerson }) => {
                 <td>{person[column]}</td>
               ))}
               <td>
+                {/* ShowPerson Link */}
                 <Link to={`/show/${person.id}`}>
                   <AiFillEye />
                 </Link>
               </td>
               <td>
+                {/* UpdatePerson Link */}
                 <Link to={`/update/${person.id}`}>
                   <BsPencilSquare />
                 </Link>
