@@ -29,23 +29,14 @@ const Home = () => {
   };
 
   // A method is created to add a new contact
-  const addPerson = async () => {
-    const myData = {
-      id: personList[personList.length],
-      firstName: person.firstName,
-      lastName: person.lastName,
-      email: person.email,
-      password: person.password,
-      about: person.about,
-    };
-
+  const addPerson = async (pPerson) => {
     // We send the new person to our data with the Fetch Api post method.
     const result = await fetch("http://localhost:3000/employee", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(myData),
+      body: JSON.stringify(pPerson),
     });
   };
 
@@ -54,6 +45,7 @@ const Home = () => {
       method: "DELETE",
     });
   };
+
   return (
     <Container>
       <Row className="rows">

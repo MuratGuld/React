@@ -1,4 +1,4 @@
-import { AiFillDelete } from "react-icons/ai";
+import { AiFillDelete } from "react-icons/ai"; // npm i react-icons
 import React from "react";
 
 const DeletePerson = ({ personID, deletePerson }) => {

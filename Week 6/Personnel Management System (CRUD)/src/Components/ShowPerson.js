@@ -18,7 +18,6 @@ const ShowPerson = () => {
     setPerson(filteredPerson);
   };
 
-  console.log(person);
   return (
     <div>
       <h1>PERSON DETAIILS</h1>
@@ -28,6 +27,7 @@ const ShowPerson = () => {
       <h4>Password : {person.password}</h4>
       <h4>About : {person.about}</h4>
       <button>
+        {/* Return to Home Page */}
         <Link to="/">Return</Link>
       </button>
     </div>
