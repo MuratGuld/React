@@ -4,7 +4,7 @@ const AddPerson = ({ addPerson, person, setPerson }) => {
   return (
     <div>
       <h1>ADD PERSON</h1>
-      <form onSubmit={addPerson}>
+      <form onSubmit={() => addPerson(person)}>
         <input
           required
           type="text"
@@ -12,6 +12,7 @@ const AddPerson = ({ addPerson, person, setPerson }) => {
           onChange={(e) => setPerson({ ...person, firstName: e.target.value })}
         />
         <br />
+        
         <input
           required
           type="text"

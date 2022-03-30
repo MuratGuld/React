@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { BsPencilSquare } from "react-icons/bs";
 import { AiFillEye } from "react-icons/ai";
 
-const PersonList = ({ personList, deletePerson, updatePerson }) => {
+const PersonList = ({ personList, deletePerson }) => {
   const columns = personList[0] && Object.keys(personList[0]);
 
   return (
@@ -21,11 +21,13 @@ const PersonList = ({ personList, deletePerson, updatePerson }) => {
                 <td>{person[column]}</td>
               ))}
               <td>
+                {/* ShowPerson Link */}
                 <Link to={`/show/${person.id}`}>
                   <AiFillEye />
                 </Link>
               </td>
               <td>
+                {/* UpdatePerson Link */}
                 <Link to={`/update/${person.id}`}>
                   <BsPencilSquare />
                 </Link>
